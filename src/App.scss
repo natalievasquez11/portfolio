@@ -1,0 +1,55 @@
+$background-gradient: linear-gradient(to right, #59C173, #a17fe0, #5D26C1);
+// linear-gradient(to right, #FFAFBD, #ffc3a0)
+$heading-font: 'Bungee Shade', cursive;
+$text: 'Bai Jamjuree', sans-serif;
+
+body {
+  background: $background-gradient;
+  color: white;
+}
+
+.App {
+  text-align: left;
+  h1 {
+    font-size: 100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 180px;
+    font-family: $heading-font;
+  }
+  .lastName {
+    margin-left: 230px;
+    margin-top: -22px;
+  }
+  .about {
+    margin-left: 180px;
+    width: 550px;
+    font-family: $text;
+    .title {
+      margin-top: 10px;
+      font-size: 60px;
+    }
+    .aboutMe {
+      font-size: 20px;
+    }
+  }
+  .links {
+    margin-top: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    a {
+      display: flex;
+      float: left;
+      margin: 20px;
+      color: white;
+      :hover {
+        color: rgb(252, 131, 195);
+        margin-top: -20px;
+      }
+    }
+  }
+}
+
+

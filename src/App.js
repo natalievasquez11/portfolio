@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Main from "./components/Main/Main";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      < Main />
+      <div className="links">
+      <a href="https://www.linkedin.com/in/natalie-vasquez-csm-b0a59749/" target="_blank"><i className="fab fa-linkedin-in fa-3x"></i></a>
+      <a href="https://github.com/natalievasquez11" target="_blank"><i className="fab fa-github-alt fa-3x"></i></a>
+      <a href="#"><i className="fas fa-paper-plane fa-3x"></i></a>
+      </div>
     </div>
   );
 }
